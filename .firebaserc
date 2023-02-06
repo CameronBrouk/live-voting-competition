@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "live-voting-competition",
+    "prod": "live-voting-competition",
+    "dev": "live-voting-competition"
+  }
+}

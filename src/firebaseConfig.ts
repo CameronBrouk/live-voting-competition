@@ -7,7 +7,15 @@ import { getStorage } from 'firebase/storage'
 
 const devConfig = {}
 
-const prodConfig = {}
+const prodConfig = {
+  apiKey: 'AIzaSyBkbsKG6HgVNB25klTulLg77cFgRt7ndKg',
+  authDomain: 'live-voting-competition.firebaseapp.com',
+  projectId: 'live-voting-competition',
+  storageBucket: 'live-voting-competition.appspot.com',
+  messagingSenderId: '302793883136',
+  appId: '1:302793883136:web:ca2ddf36281d01d3b922e5',
+  measurementId: 'G-91Z79DYTMR',
+}
 
 export const firebaseApp = initializeApp(prodConfig)
 export const auth = getAuth(firebaseApp)
